@@ -1,0 +1,78 @@
+**Technologies & Languages Used in Your News Website Project**
+
+You've developed a modern, responsive news website using the following key technologies, languages, and tools:
+
+---
+
+### 1. **HTML (HyperText Markup Language)**
+
+* Structure of the webpage
+* Semantic elements (`<nav>`, `<footer>`, `<form>`, etc.)
+* Used for layout and accessibility.
+
+### 2. **CSS (Cascading Style Sheets)**
+
+* Styling and visual appearance
+* Responsive design and transitions
+* Support for **dark mode** via `.dark-mode` class
+* Use of gradients, shadows, rounded corners, and transitions
+
+### 3. **JavaScript (JS)**
+
+* Core logic for interactivity
+* DOM manipulation
+* Event handling (clicks, keydown)
+* Dark mode toggle using `localStorage`
+* Fetching data from APIs using `async/await`
+
+### 4. **Bootstrap 5 (CDN)**
+
+* Responsive grid system
+* Utility classes for spacing, alignment, and components
+* Buttons, navbar, cards, forms
+* Mobile-first design
+
+### 5. **News API (External API)**
+
+* RESTful API from [newsapi.org](https://newsapi.org)
+* Retrieves real-time news by category or search query
+* JSON-based data parsing
+
+### 6. **Web APIs (Browser-native)**
+
+* `fetch()` for HTTP requests
+* `localStorage` for storing theme preferences
+* `eventListeners` for interactive behavior
+
+### 7. **CDNs**
+
+* Bootstrap CSS & JS from jsDelivr
+* Ensures fast loading without hosting the libraries locally
+
+### 8. **SEO Meta Tags (HTML)**
+
+* `<meta name="description">`, `<meta name="keywords">`
+* Improves discoverability in search engines
+
+---
+
+### Bonus Concepts Applied:
+
+* **Progressive Enhancement:** Dark mode fallback, `placeholder` images
+* **UX/UI Design:**
+
+  * Animated hover effects
+  * Readable font stack
+  * Gradient button design
+* **Error Handling:** Graceful handling for empty results or failed API calls
+
+---
+
+### Optional Enhancements You Could Add:
+
+* Pagination or infinite scrolling
+* User authentication
+* Save/bookmark articles
+* Progressive Web App (PWA) support
+
+---

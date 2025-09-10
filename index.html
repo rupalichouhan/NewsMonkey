@@ -1,0 +1,84 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>News Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Stay updated with the latest headlines in Business, Technology, Sports, and more.">
+    <meta name="keywords" content="news, breaking news, business, technology, india news">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="m-0 p-0">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold text-primary" href="#">News34</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <button class="nav-link btn btn-link" id="general">General</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link btn btn-link" id="business">Business</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link btn btn-link" id="sports">Sports</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link btn btn-link" id="technology">Technology</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link btn btn-link" id="entertainment">Entertainment</button>
+                    </li>
+                </ul>
+
+                <button class="btn btn-sm btn-outline-dark me-3" id="darkModeToggle">🌙</button>
+
+                <form class="d-flex" role="search" onsubmit="event.preventDefault();">
+                    <input class="form-control me-2" type="search" placeholder="Search News" id="searchInput">
+                    <button class="btn btn-outline-success" type="button" id="searchButton">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- News Content Area -->
+    <div class="container my-4" id="news-container">
+        <div id="loader" class="text-center my-4" style="display: none;">
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="mt-5">
+        <nav class="navbar bg-light text-center">
+            <div class="container-fluid justify-content-center">
+                <span class="navbar-text text-muted">&copy; 2025 News34 - All rights reserved</span>
+            </div>
+        </nav>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
